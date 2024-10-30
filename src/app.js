@@ -3,7 +3,7 @@ import { resolve } from "path";
 
 dotenv.config();
 
-import "./database/index.js";
+import "./database";
 
 import express from "express";
 import cors from "cors";
