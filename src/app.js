@@ -7,6 +7,7 @@ import "./database";
 
 import express from "express";
 import cors from "cors";
+//import helmet from "helmet";
 
 import homeRoutes from "./routes/homeRoutes";
 import userRoutes from "./routes/userRoutes";
@@ -14,7 +15,7 @@ import tokenRoutes from "./routes/tokenRoutes";
 import alunoRoutes from "./routes/alunoRoutes";
 import fotoRoutes from "./routes/fotoRoutes";
 
-/*const whiteList = ["http://34.151.248.174", "http://localhost:3000"];
+/*const whiteList = ["http://34.151.248.174", "http://localhost:3001"];
 const corsOptions = {
   origin: function (origin, callback) {
     if (whiteList.indexOf(origin) !== -1 || !origin) {
@@ -23,7 +24,7 @@ const corsOptions = {
       callback(new Error(" Not allowed by CORS"));
     }
   },
-};*/
+}; */
 
 class App {
   constructor() {
