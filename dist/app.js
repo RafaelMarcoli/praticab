@@ -3,7 +3,7 @@ var _path = require('path');
 
 _dotenv2.default.config();
 
-require('./database');
+require('./database/index.js');
 
 var _express = require('express'); var _express2 = _interopRequireDefault(_express);
 var _cors = require('cors'); var _cors2 = _interopRequireDefault(_cors);
